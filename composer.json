@@ -1,0 +1,19 @@
+{
+    "name": "sobreira/gcm",
+    "description": "A package which provides Google Cloud Messaging functionality",
+    "authors": [
+        {
+            "name": "Juliana Sobreira",
+            "email": "juliana.univasf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "Sobreira\\GCM\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
