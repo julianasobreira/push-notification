@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": { 
-            "Sobreira\\Gcm\\": "gcm/"
+            "Sobreira\\Gcm\\": "src/"
         }
     },
     "minimum-stability": "dev",
