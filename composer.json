@@ -12,7 +12,7 @@
             "Sobreira\\Gcm\\": "gcm/"
         }
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "~5"
     }
