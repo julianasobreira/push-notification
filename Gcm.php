@@ -49,6 +49,6 @@ class Gcm
         // Close connection
         curl_close($ch);
         
-        return "Confirmation of send" . $result;
+        return $result;
     }
 }
