@@ -5,7 +5,7 @@ namespace Sobreira\Gcm;
 class Gcm
 {
     const URL = 'https://android.googleapis.com/gcm/send';
-    const GCM_API_KEY = "Authorization: key=AIzaSyBv9ZKR7s3jRIaDyK2DG1ZT26Id2HMZcvw";
+    const GCM_API_KEY = "Authorization: key=xxxxx";
     /**
      * Display a listing of the resource.
      *
@@ -13,13 +13,6 @@ class Gcm
      */
     public function sendNote($title, $message, $registration_ids)
     {        
-
-        /*
-        $registration_ids = ["eyXnq-FCekQ:APA91bEZ5RXe1YLbk6c_Ox6OhLAzn_HP0HaYCTaDKhYsyJHTFUSvaXQzbg_YJWnGHwEIB2i40pxM4YEQE3hke7-lL3fs6X2NQ_1Ojnm4eRS2b0eLj_VYZCGZ3rethWwZj4QB8_qxhAMC"];
-        $message = ["message" => "hello, test!!",
-                    "title" => "Test App"];
-        */
-
         $data = ["message" => $message, "title" => $title];
 
         $fields = [
