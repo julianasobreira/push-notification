@@ -1,19 +1,22 @@
 {
-    "name": "sobreira/gcm",
-    "description": "A package which provides Google Cloud Messaging functionality",
-    "authors": [
-        {
-            "name": "Juliana Sobreira",
-            "email": "juliana.univasf@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": { 
-            "Sobreira\\Gcm\\": "src/"
-        }
-    },
-    "minimum-stability": "dev",
-    "require": {
-        "illuminate/support": "~5"
+  "name": "sobreira/gcm",
+  "description": "A package which provides Google Cloud Messaging functionality",
+  "authors": [{
+    "name": "Juliana Sobreira",
+    "email": "juliana.univasf@gmail.com"
+  }, {
+    "name": "Caio Ladislau",
+    "email": "caio.ladislau@sysvale.com",
+    "homepage": "http://sysvale.com",
+    "role": "Developer"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Sobreira\\Gcm\\": "src/"
     }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "~5"
+  }
 }
